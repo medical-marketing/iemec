@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul {
+    list-style: none;
+}
+
+ul>li {
+    padding-left: 20px;
+}
+
+ul>li::before {
+    content: url("/arrow-right-solid.svg");
+    margin-left: -20px;
+    margin-right: 10px;
+    transform: translateY(2.5px);
+    display: inline-flex;
+    /* background-color: #4A9BB5; */
+    border-radius: 50px;
+    color: #4A9BB5;
+}
+
+strong {
+    color: #4A9BB5;
+}
