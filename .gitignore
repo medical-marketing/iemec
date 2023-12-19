@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+/customtypes/
+/customtypes/*
+
+
 # testing
 /coverage
 
